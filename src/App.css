@@ -1,0 +1,58 @@
+/* 既存のスタイルはそのままで、以下を追加 */
+
+header {
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #e44d26;
+}
+
+nav ul li button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: bold;
+  padding: 0;
+  text-decoration: underline;
+}
+
+nav ul li button:hover {
+  color: #e44d26;
+}
+
+nav ul li span {
+  color: #fff;
+}
